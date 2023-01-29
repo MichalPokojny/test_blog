@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class BlogConfig(AppConfig):
+class TestBlogConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'blog'
+    name = 'test_blog'
